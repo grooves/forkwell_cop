@@ -1,0 +1,91 @@
+# These are the cops before discussion in Forkwell team.
+
+Lint/EnsureReturn:
+  Enabled: true
+
+Lint/Eval:
+  Enabled: true
+
+Metrics/CyclomaticComplexity:
+  Max: 12
+
+Metrics/ParameterLists:
+  Max: 8
+
+Metrics/PerceivedComplexity:
+  Max: 10
+
+Rails/Date:
+  Enabled: true
+
+Rails/FindEach:
+  Enabled: true
+
+Rails/NotNullColumn:
+  Enabled: true
+
+Rails/Output:
+  Enabled: true
+
+Rails/OutputSafety:
+  Enabled: true
+
+Rails/Validation:
+  Enabled: false
+
+Style/Alias:
+  Enabled: true
+
+Style/AlignHash:
+  Enabled: true
+
+Style/AlignParameters:
+  Enabled: true
+
+Style/BlockDelimiters:
+  Enabled: false
+
+Style/BracesAroundHashParameters:
+  Enabled: false
+
+Style/CaseEquality:
+  Enabled: true
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/ClassCheck:
+  Enabled: true
+
+Style/ClassVars:
+  Enabled: true
+
+Style/DoubleNegation:
+  Enabled: true
+
+Style/FormatString:
+  Enabled: true
+
+Style/HashSyntax:
+  Enabled: false
+
+Style/IfInsideElse:
+  Enabled: true
+
+Style/MultilineMethodCallIndentation:
+  Enabled: false
+
+Style/PredicateName:
+  Enabled: true
+
+Style/SafeNavigation:
+  Enabled: true
+
+Style/SingleLineBlockParams:
+  Enabled: true
+
+Style/VariableNumber:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false

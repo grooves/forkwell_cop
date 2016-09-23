@@ -1,0 +1,80 @@
+AllCops:
+  # .ruby-version の指定と合わせるため指定しない
+  # TargetRubyVersion: ~
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  ExtraDetails: true
+  Exclude:
+    - 'tmp/**/*'
+    - 'db/schema.rb'
+    - 'node_modules/**/*'
+
+Rails:
+  Enabled: true
+
+Metrics/ClassLength:
+  CountComments: false
+  Max: 450
+
+Metrics/ModuleLength:
+  CountComments: false
+  Max: 130
+
+Metrics/LineLength:
+  Max: 250
+  AllowHeredoc: true
+  AllowURI: true
+  URISchemes:
+    - http
+    - https
+
+Metrics/MethodLength:
+  Max: 130
+
+Metrics/AbcSize:
+  Max: 50
+
+# # 宗教の違いを許容する
+# def some_method_with_parameters param1, param2
+#  # body omitted
+# end
+#
+# def some_method_with_parameters(param1, param2)
+#  # body omitted
+# end
+Style/MethodDefParentheses:
+  Enabled: false
+
+Style/AccessorMethodName:
+  Exclude:
+    # # action_args を使うため
+    # before_action :set_user
+    #
+    # def set_user(id)
+    #   @user = User.find(id)
+    # end
+    - '*_controller.rb'
+
+# 日本語コメントを許容する
+Style/AsciiComments:
+  Enabled: false
+
+Style/LambdaCall:
+  Exclude:
+    # # jbuilder の README の通りに書いても検出されるため
+    # json.(@message, :created_at, :updated_at)
+    - '**/*.jbuilder'
+
+# # consistent
+# hash = {
+#   key: :value
+# }
+# and_in_a_method_call({
+#   no: :difference
+# })
+Style/IndentHash:
+  EnforcedStyle: consistent
+
+# ドキュメントの無い public クラスを許容する
+Style/Documentation:
+  Enabled: false

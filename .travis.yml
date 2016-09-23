@@ -1,0 +1,5 @@
+sudo: false
+language: ruby
+before_install: gem install bundler -v 1.13.1
+notifications:
+  email: false
