@@ -14,7 +14,7 @@ Rails:
 
 Metrics/ClassLength:
   CountComments: false
-  Max: 450
+  Max: 150
 
 Metrics/ModuleLength:
   CountComments: false
@@ -29,7 +29,10 @@ Metrics/LineLength:
     - https
 
 Metrics/MethodLength:
-  Max: 130
+  Max: 40
+  Exclude:
+    # データ移行のためにSQLを書くことがあるため許容する
+    - 'db/migrate/*.rb'
 
 Metrics/AbcSize:
   Max: 50
