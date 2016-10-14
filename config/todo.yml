@@ -99,6 +99,3 @@ Rails/HttpPositionalArguments:
 
 Rails/DynamicFindBy:
   Enabled: false
-
-Style/ExtraSpacing:
-  Enabled: false
