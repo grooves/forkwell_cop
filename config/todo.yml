@@ -89,3 +89,16 @@ Style/VariableNumber:
 
 Style/GuardClause:
   Enabled: false
+
+# v0.44.0
+Metrics/BlockLength:
+  Enabled: false
+
+Rails/HttpPositionalArguments:
+  Enabled: false
+
+Rails/DynamicFindBy:
+  Enabled: false
+
+Style/ExtraSpacing:
+  Enabled: false
