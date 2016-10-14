@@ -56,7 +56,7 @@ Style/AccessorMethodName:
     # def set_user(id)
     #   @user = User.find(id)
     # end
-    - '*_controller.rb'
+    - '**/*_controller.rb'
 
 # 日本語コメントを許容する
 Style/AsciiComments:
