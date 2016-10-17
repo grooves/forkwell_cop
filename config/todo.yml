@@ -6,15 +6,6 @@ Lint/EnsureReturn:
 Lint/Eval:
   Enabled: true
 
-Metrics/CyclomaticComplexity:
-  Max: 12
-
-Metrics/ParameterLists:
-  Max: 8
-
-Metrics/PerceivedComplexity:
-  Max: 10
-
 Rails/Date:
   Enabled: true
 
@@ -36,9 +27,6 @@ Rails/Validation:
 Style/Alias:
   Enabled: true
 
-Style/AlignHash:
-  Enabled: true
-
 Style/AlignParameters:
   Enabled: true
 
@@ -47,9 +35,6 @@ Style/BlockDelimiters:
 
 Style/BracesAroundHashParameters:
   Enabled: false
-
-Style/CaseEquality:
-  Enabled: true
 
 Style/ClassAndModuleChildren:
   Enabled: false
@@ -69,19 +54,10 @@ Style/FormatString:
 Style/HashSyntax:
   Enabled: false
 
-Style/IfInsideElse:
-  Enabled: true
-
 Style/MultilineMethodCallIndentation:
   Enabled: false
 
-Style/PredicateName:
-  Enabled: true
-
 Style/SafeNavigation:
-  Enabled: true
-
-Style/SingleLineBlockParams:
   Enabled: true
 
 Style/VariableNumber:
