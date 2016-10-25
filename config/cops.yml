@@ -1,0 +1,8 @@
+ForkwellCop/BlockAbcSize:
+  Description: 'AbcSize for block'
+  Enabled: true
+  Max: 20
+  Exclude:
+    - 'spec/**/*.rb'
+    - '**/routes.rb'
+    - 'config/environments/*.rb'

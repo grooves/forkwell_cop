@@ -1,3 +1,6 @@
+require:
+  - 'forkwell_cop'
+
 AllCops:
   # .ruby-version の指定と合わせるため指定しない
   # TargetRubyVersion: ~
