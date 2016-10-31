@@ -87,3 +87,7 @@ Style/IndentHash:
 # ドキュメントの無い public クラスを許容する
 Style/Documentation:
   Enabled: false
+
+# email など NOT NULL でもデフォルト値を指定できないカラムは存在する
+Rails/NotNullColumn:
+  Enabled: false
