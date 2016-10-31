@@ -12,9 +12,6 @@ Rails/Date:
 Rails/FindEach:
   Enabled: true
 
-Rails/NotNullColumn:
-  Enabled: true
-
 Rails/Output:
   Enabled: true
 
