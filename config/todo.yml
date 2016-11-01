@@ -72,3 +72,10 @@ Rails/HttpPositionalArguments:
 
 Rails/DynamicFindBy:
   Enabled: false
+
+# v0.45.0
+Style/MultilineIfModifier:
+  Enabled: false
+
+Style/SpaceInLambdaLiteral:
+  Enabled: false
