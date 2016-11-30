@@ -8,6 +8,11 @@ AllCops:
     - 'tmp/**/*'
     - 'db/schema.rb'
     - 'node_modules/**/*'
+    - 'bin/rails'
+    - 'bin/rake'
+    - 'bin/rspec'
+    - 'bin/rubocop'
+    - 'bin/spring'
 
 Rails:
   Enabled: true
