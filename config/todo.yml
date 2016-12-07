@@ -93,3 +93,8 @@ Bundler/OrderedGems:
 # https://github.com/bbatsov/rubocop/blob/v0.46.0/lib/rubocop/cop/style/empty_method.rb
 Style/EmptyMethod:
   Enabled: false
+
+# v0.46.0 ではエラーが発生するため無効にする。master では修正済み。
+# https://github.com/bbatsov/rubocop/pull/3751
+Rails/EnumUniqueness:
+  Enabled: false
