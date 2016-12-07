@@ -84,3 +84,12 @@ Style/MultilineIfModifier:
 # https://github.com/bbatsov/rubocop/blob/v0.45.0/lib/rubocop/cop/style/space_in_lambda_literal.rb
 Style/SpaceInLambdaLiteral:
   Enabled: false
+
+# v0.46.0
+# https://github.com/bbatsov/rubocop/blob/v0.46.0/lib/rubocop/cop/bundler/ordered_gems.rb
+Bundler/OrderedGems:
+  Enabled: false
+
+# https://github.com/bbatsov/rubocop/blob/v0.46.0/lib/rubocop/cop/style/empty_method.rb
+Style/EmptyMethod:
+  Enabled: false
