@@ -3,7 +3,7 @@
 Lint/EnsureReturn:
   Enabled: true
 
-Lint/Eval:
+Security/Eval:
   Enabled: true
 
 Rails/Date:
