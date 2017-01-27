@@ -3,7 +3,7 @@
 Lint/EnsureReturn:
   Enabled: true
 
-Lint/Eval:
+Security/Eval:
   Enabled: true
 
 Rails/Date:
@@ -94,7 +94,15 @@ Bundler/OrderedGems:
 Style/EmptyMethod:
   Enabled: false
 
-# v0.46.0 ではエラーが発生するため無効にする。master では修正済み。
-# https://github.com/bbatsov/rubocop/pull/3751
-Rails/EnumUniqueness:
+# v0.47.1
+# https://github.com/bbatsov/rubocop/blob/v0.47.1/lib/rubocop/cop/rails/file_path.rb
+Rails/FilePath:
+  Enabled: false
+
+# https://github.com/bbatsov/rubocop/blob/v0.47.1/lib/rubocop/cop/rails/reversible_migration.rb
+Rails/ReversibleMigration:
+  Enabled: false
+
+# https://github.com/bbatsov/rubocop/blob/v0.47.1/lib/rubocop/cop/rails/skips_model_validations.rb
+Rails/SkipsModelValidations:
   Enabled: false
