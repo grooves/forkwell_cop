@@ -51,9 +51,6 @@ Style/HashSyntax:
 Style/MultilineMethodCallIndentation:
   Enabled: false
 
-Style/SafeNavigation:
-  Enabled: true
-
 Style/VariableNumber:
   Enabled: false
 
