@@ -68,10 +68,6 @@ Style/GuardClause:
 Metrics/BlockLength:
   Enabled: false
 
-# https://github.com/bbatsov/rubocop/blob/v0.45.0/lib/rubocop/cop/rails/http_positional_arguments.rb
-Rails/HttpPositionalArguments:
-  Enabled: false
-
 # https://github.com/bbatsov/rubocop/blob/v0.45.0/lib/rubocop/cop/rails/dynamic_find_by.rb
 Rails/DynamicFindBy:
   Enabled: false
