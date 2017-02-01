@@ -45,9 +45,6 @@ Style/ClassVars:
 Style/DoubleNegation:
   Enabled: true
 
-Style/FormatString:
-  Enabled: true
-
 Style/HashSyntax:
   Enabled: false
 
