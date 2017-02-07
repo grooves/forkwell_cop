@@ -45,17 +45,11 @@ Style/ClassVars:
 Style/DoubleNegation:
   Enabled: true
 
-Style/FormatString:
-  Enabled: true
-
 Style/HashSyntax:
   Enabled: false
 
 Style/MultilineMethodCallIndentation:
   Enabled: false
-
-Style/SafeNavigation:
-  Enabled: true
 
 Style/VariableNumber:
   Enabled: false
@@ -66,10 +60,6 @@ Style/GuardClause:
 # v0.44.0
 # https://github.com/bbatsov/rubocop/blob/v0.45.0/lib/rubocop/cop/metrics/block_length.rb
 Metrics/BlockLength:
-  Enabled: false
-
-# https://github.com/bbatsov/rubocop/blob/v0.45.0/lib/rubocop/cop/rails/http_positional_arguments.rb
-Rails/HttpPositionalArguments:
   Enabled: false
 
 # https://github.com/bbatsov/rubocop/blob/v0.45.0/lib/rubocop/cop/rails/dynamic_find_by.rb
