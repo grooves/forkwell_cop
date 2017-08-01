@@ -21,9 +21,6 @@ Rails/OutputSafety:
 Rails/Validation:
   Enabled: false
 
-Style/Alias:
-  Enabled: true
-
 Layout/AlignParameters:
   Enabled: true
 

@@ -96,3 +96,9 @@ Style/Documentation:
 # email など NOT NULL でもデフォルト値を指定できないカラムは存在する
 Rails/NotNullColumn:
   Enabled: false
+
+# alias, alias_method で細かい挙動が変わるため、使い分ける必要がある
+#
+# 参考: http://blog.bigbinary.com/2012/01/08/alias-vs-alias-method.html
+Style/Alias:
+  Enabled: false
