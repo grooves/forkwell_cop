@@ -68,6 +68,7 @@ Style/AccessorMethodName:
     #   @user = User.find(id)
     # end
     - '**/*_controller.rb'
+    - 'app/controllers/concerns/**/*.rb'
 
 # 日本語コメントを許容する
 Style/AsciiComments:
