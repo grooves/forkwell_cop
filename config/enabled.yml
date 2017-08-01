@@ -96,3 +96,7 @@ Style/Documentation:
 # email など NOT NULL でもデフォルト値を指定できないカラムは存在する
 Rails/NotNullColumn:
   Enabled: false
+
+# map...flatten はだいたい flat_map に直せるのでチェックしておく
+Performance/FlatMap:
+  EnabledForFlattenWithoutParams: true
