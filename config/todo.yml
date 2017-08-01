@@ -24,7 +24,7 @@ Rails/Validation:
 Style/Alias:
   Enabled: true
 
-Style/AlignParameters:
+Layout/AlignParameters:
   Enabled: true
 
 Style/BlockDelimiters:
@@ -48,7 +48,7 @@ Style/DoubleNegation:
 Style/HashSyntax:
   Enabled: false
 
-Style/MultilineMethodCallIndentation:
+Layout/MultilineMethodCallIndentation:
   Enabled: false
 
 Style/VariableNumber:
@@ -72,7 +72,7 @@ Style/MultilineIfModifier:
   Enabled: false
 
 # https://github.com/bbatsov/rubocop/blob/v0.45.0/lib/rubocop/cop/style/space_in_lambda_literal.rb
-Style/SpaceInLambdaLiteral:
+Layout/SpaceInLambdaLiteral:
   Enabled: false
 
 # v0.46.0

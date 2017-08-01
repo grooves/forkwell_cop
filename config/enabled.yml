@@ -86,7 +86,7 @@ Style/LambdaCall:
 # and_in_a_method_call({
 #   no: :difference
 # })
-Style/IndentHash:
+Layout/IndentHash:
   EnforcedStyle: consistent
 
 # ドキュメントの無い public クラスを許容する
