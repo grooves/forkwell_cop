@@ -104,19 +104,12 @@ Rails/NotNullColumn:
 Style/Alias:
   Enabled: false
 
-# # EnforcedStyle: with_fixed_indentation
+# - Emacs のデフォルトが with_first_parameter
+# - Vim のデフォルトが with_fixed_indentation
 #
-# # good
-#
-# foo :bar,
-#   :baz
-#
-# # bad
-#
-# foo :bar,
-#     :baz
+# という宗教の違いを許容する
 Layout/AlignParameters:
-  EnforcedStyle: with_fixed_indentation
+  Enabled: false
 
 # データ移行のために execute を使うことがあるため許容する
 Rails/ReversibleMigration:
