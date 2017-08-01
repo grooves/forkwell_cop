@@ -21,9 +21,6 @@ Rails/OutputSafety:
 Rails/Validation:
   Enabled: false
 
-Layout/AlignParameters:
-  Enabled: true
-
 Style/BlockDelimiters:
   Enabled: false
 

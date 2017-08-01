@@ -102,3 +102,17 @@ Rails/NotNullColumn:
 # 参考: http://blog.bigbinary.com/2012/01/08/alias-vs-alias-method.html
 Style/Alias:
   Enabled: false
+
+# # EnforcedStyle: with_fixed_indentation
+#
+# # good
+#
+# foo :bar,
+#   :baz
+#
+# # bad
+#
+# foo :bar,
+#     :baz
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
