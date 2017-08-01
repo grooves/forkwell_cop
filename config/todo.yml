@@ -39,9 +39,6 @@ Style/ClassVars:
 Style/DoubleNegation:
   Enabled: true
 
-Style/HashSyntax:
-  Enabled: false
-
 Layout/MultilineMethodCallIndentation:
   Enabled: false
 
