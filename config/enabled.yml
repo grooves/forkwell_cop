@@ -98,6 +98,10 @@ Style/Documentation:
 Rails/NotNullColumn:
   Enabled: false
 
+# map...flatten はだいたい flat_map に直せるのでチェックしておく
+Performance/FlatMap:
+  EnabledForFlattenWithoutParams: true
+
 # alias, alias_method で細かい挙動が変わるため、使い分ける必要がある
 #
 # 参考: http://blog.bigbinary.com/2012/01/08/alias-vs-alias-method.html
