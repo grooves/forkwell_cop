@@ -21,12 +21,6 @@ Rails/OutputSafety:
 Rails/Validation:
   Enabled: false
 
-Style/Alias:
-  Enabled: true
-
-Layout/AlignParameters:
-  Enabled: true
-
 Style/BlockDelimiters:
   Enabled: false
 
@@ -44,9 +38,6 @@ Style/ClassVars:
 
 Style/DoubleNegation:
   Enabled: true
-
-Style/HashSyntax:
-  Enabled: false
 
 Layout/MultilineMethodCallIndentation:
   Enabled: false
@@ -87,10 +78,6 @@ Style/EmptyMethod:
 # v0.47.1
 # https://github.com/bbatsov/rubocop/blob/v0.47.1/lib/rubocop/cop/rails/file_path.rb
 Rails/FilePath:
-  Enabled: false
-
-# https://github.com/bbatsov/rubocop/blob/v0.47.1/lib/rubocop/cop/rails/reversible_migration.rb
-Rails/ReversibleMigration:
   Enabled: false
 
 # https://github.com/bbatsov/rubocop/blob/v0.47.1/lib/rubocop/cop/rails/skips_model_validations.rb
