@@ -13,6 +13,8 @@ AllCops:
     - 'bin/rspec'
     - 'bin/rubocop'
     - 'bin/spring'
+    - 'bin/webpack'
+    - 'bin/webpack-dev-server'
 
 Rails:
   Enabled: true
