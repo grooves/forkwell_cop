@@ -50,6 +50,17 @@ Metrics/CyclomaticComplexity:
 Metrics/PerceivedComplexity:
   Max: 9
 
+Naming/AccessorMethodName:
+  Exclude:
+    # # action_args を使うため
+    # before_action :set_user
+    #
+    # def set_user(id)
+    #   @user = User.find(id)
+    # end
+    - '**/*_controller.rb'
+    - 'app/controllers/concerns/**/*.rb'
+
 # # 宗教の違いを許容する
 # def some_method_with_parameters param1, param2
 #  # body omitted
@@ -60,17 +71,6 @@ Metrics/PerceivedComplexity:
 # end
 Style/MethodDefParentheses:
   Enabled: false
-
-Style/AccessorMethodName:
-  Exclude:
-    # # action_args を使うため
-    # before_action :set_user
-    #
-    # def set_user(id)
-    #   @user = User.find(id)
-    # end
-    - '**/*_controller.rb'
-    - 'app/controllers/concerns/**/*.rb'
 
 # 日本語コメントを許容する
 Style/AsciiComments:

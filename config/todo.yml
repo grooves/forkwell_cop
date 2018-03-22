@@ -42,7 +42,7 @@ Style/DoubleNegation:
 Layout/MultilineMethodCallIndentation:
   Enabled: false
 
-Style/VariableNumber:
+Naming/VariableNumber:
   Enabled: false
 
 Style/GuardClause:
