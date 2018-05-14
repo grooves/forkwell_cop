@@ -128,3 +128,7 @@ Rails/UnknownEnv:
     - test
     - production
     - staging
+
+# 子レコードを残しておきたい場合もあるため許容する
+Rails/HasManyOrHasOneDependent:
+  Enabled: false
