@@ -18,6 +18,6 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'rubocop', '~> 0.68'
   spec.add_dependency 'rubocop-performance', '~> 1.3.0'
-  spec.add_development_dependency 'bundler', '~> 1.13'
+  spec.add_development_dependency 'bundler', '~> 1.17.3'
   spec.add_development_dependency 'rake', '~> 10.0'
 end
