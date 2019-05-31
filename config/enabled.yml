@@ -1,3 +1,6 @@
+require:
+  - rubocop-performance
+
 AllCops:
   # .ruby-version の指定と合わせるため指定しない
   # TargetRubyVersion: ~
