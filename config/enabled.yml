@@ -1,3 +1,6 @@
+require:
+  - rubocop-performance
+
 AllCops:
   # .ruby-version の指定と合わせるため指定しない
   # TargetRubyVersion: ~
@@ -89,7 +92,7 @@ Style/LambdaCall:
 # and_in_a_method_call({
 #   no: :difference
 # })
-Layout/IndentHash:
+Layout/IndentFirstHashElement:
   EnforcedStyle: consistent
 
 # ドキュメントの無い public クラスを許容する
