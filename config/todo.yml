@@ -105,5 +105,5 @@ Naming/MemoizedInstanceVariableName:
   Enabled: false
 
 # https://github.com/bbatsov/rubocop/blob/v0.53.0/lib/rubocop/cop/naming/uncommunicative_method_param_name.rb
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   Enabled: false
