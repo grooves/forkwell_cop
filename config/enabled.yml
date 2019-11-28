@@ -93,7 +93,7 @@ Style/LambdaCall:
 # and_in_a_method_call({
 #   no: :difference
 # })
-Layout/IndentFirstHashElement:
+Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 
 # ドキュメントの無い public クラスを許容する
@@ -118,7 +118,7 @@ Style/Alias:
 # - Vim のデフォルトが with_fixed_indentation
 #
 # という宗教の違いを許容する
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   Enabled: false
 
 # データ移行のために execute を使うことがあるため許容する
