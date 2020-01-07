@@ -31,7 +31,7 @@ Metrics/ModuleLength:
   CountComments: false
   Max: 130
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 250
   AllowHeredoc: true
   AllowURI: true
